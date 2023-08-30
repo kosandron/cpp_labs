@@ -1,0 +1,1 @@
+add_library(archivator archivator.cpp archivator.h)
