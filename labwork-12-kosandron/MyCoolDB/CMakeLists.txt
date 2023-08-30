@@ -1,0 +1,1 @@
+add_library(MyCoolDB MyCoolDB.h MyCoolDB.cpp Column.h DBExeptions.h table.h splitFunctions.h splitFunctions.cpp)
