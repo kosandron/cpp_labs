@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.23)
+project(labwork_3_kosandron)
+
+add_subdirectory(parser)
+add_subdirectory(heap)
+add_subdirectory(bmp)
+add_executable(labwork_3_kosandron main.cpp)
+target_link_libraries(${PROJECT_NAME} PRIVATE parser)
+target_link_libraries(${PROJECT_NAME} PRIVATE heap)
+target_link_libraries(${PROJECT_NAME} PRIVATE bmp)
